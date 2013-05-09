@@ -29,7 +29,7 @@ usage(){
         exit 0
 }
 
-if [ $# -lt 2 ];then
+if [ $# -lt 1 ];then
 	usage	
 	exit
 fi
